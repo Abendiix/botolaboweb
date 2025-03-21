@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--Abendiix CC0  - https://abendiix.com-->
+
 <svg
    version="1.1"
    width="480"
@@ -15,57 +16,58 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-   <defs
-      id="defs75" />
-   <sodipodi:namedview
-      id="namedview75"
-      pagecolor="#ffffff"
-      bordercolor="#000000"
-      borderopacity="0.25"
-      inkscape:showpageshadow="2"
-      inkscape:pageopacity="0.0"
-      inkscape:pagecheckerboard="0"
-      inkscape:deskcolor="#d1d1d1"
-      inkscape:zoom="0.72506067"
-      inkscape:cx="221.36079"
-      inkscape:cy="156.53862"
-      inkscape:window-width="1536"
-      inkscape:window-height="792"
-      inkscape:window-x="0"
-      inkscape:window-y="0"
-      inkscape:window-maximized="1"
-      inkscape:current-layer="svg75" />
-   <rect
-      style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:787.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.4"
-      id="rect78"
-      width="480"
-      height="480"
-      x="0"
-      y="0"
-      inkscape:label="background" />
-   <path
-      d="m 180,300 v 15 15 15 15 h -15 -15 v 15 h 15 15 15 v -15 -15 -15 -15 -15 z m 105,0 v 15 15 15 15 h -15 -15 v 15 h 15 15 15 v -15 -15 -15 -15 -15 z"
-      style="fill:#ffffff;stroke-width:15"
-      id="path78"
-      inkscape:label="legs" />
-   <path
-      d="m 165,195 v 15 15 15 15 h 15 v -15 -15 -15 -15 z"
-      style="fill:#ffffff;stroke-width:15"
-      id="path77"
-      inkscape:label="eye1" />
-   <path
-      d="m 240,195 v 15 15 15 15 h 15 v -15 -15 -15 -15 z"
-      style="fill:#ffffff;stroke-width:15"
-      id="path76"
-      inkscape:label="eye2" />
-   <path
-      d="m 135,165 v 15 15 15 15 15 15 15 15 h 15 15 15 15 15 15 15 15 15 15 15 15 15 15 v -15 -15 -15 -15 -15 -15 -15 -15 h -15 -15 -15 -15 -15 -15 -15 -15 -15 -15 -15 -15 -15 z m 15,15 h 15 15 15 15 15 15 15 15 v 15 15 15 15 15 15 h -15 -15 -15 -15 -15 -15 -15 -15 v -15 -15 -15 -15 -15 z m 135,0 h 15 15 15 v 15 15 15 15 15 15 h -15 -15 -15 v -15 -15 -15 -15 -15 z"
-      style="fill:#ffffff;stroke-width:15"
-      id="path75"
-      inkscape:label="head" />
-   <path
-      d="m 240,105 v 15 h -15 v 15 15 h 15 15 v -15 h 15 v -15 -15 h -15 z"
-      style="fill:#03a436;stroke-width:15"
-      id="path79"
-      inkscape:label="leaf" />
+  <defs
+     id="defs75" />
+  <sodipodi:namedview
+     id="namedview75"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.72506067"
+     inkscape:cx="199.29367"
+     inkscape:cy="208.94803"
+     inkscape:window-width="1536"
+     inkscape:window-height="792"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg75" />
+  <rect
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:787.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.4"
+     id="rect78"
+     width="480"
+     height="480"
+     x="0"
+     y="0"
+     inkscape:label="background"
+     sodipodi:insensitive="true" />
+  <g
+     id="g1"
+     inkscape:label="Boto"
+     transform="translate(0,20)">
+    <path
+       d="m 120,204 v 24 24 24 24 h 24 v -24 -24 -24 -24 z"
+       style="fill:#ffffff;stroke-width:24"
+       id="path77"
+       inkscape:label="eye1" />
+    <path
+       d="m 240,204 v 24 24 24 24 h 24 v -24 -24 -24 -24 z"
+       style="fill:#ffffff;stroke-width:24"
+       id="path76"
+       inkscape:label="eye2" />
+    <path
+       d="m 72,156 v 24 24 24 24 24 24 24 24 h 24 24 24 24 24 24 24 24 24 24 24 24 24 24 V 324 300 276 252 228 204 180 156 H 384 360 336 312 288 264 240 216 192 168 144 120 96 Z m 24,24 h 24 24 24 24 24 24 24 24 v 24 24 24 24 24 24 H 264 240 216 192 168 144 120 96 v -24 -24 -24 -24 -24 z m 216,0 h 24 24 24 v 24 24 24 24 24 24 h -24 -24 -24 v -24 -24 -24 -24 -24 z"
+       style="fill:#ffffff;stroke-width:24"
+       id="path75"
+       inkscape:label="head" />
+    <path
+       d="m 240,60 v 24 h -24 v 24 24 h 24 24 v -24 h 24 V 84 60 h -24 z"
+       style="fill:#03a436;stroke-width:24"
+       id="path79"
+       inkscape:label="leaf" />
+  </g>
 </svg>
