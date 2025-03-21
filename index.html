@@ -1,0 +1,208 @@
+<!--
+MIT License
+
+Copyright (c) 2025 Abendiix
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>BOTO LABO</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="description" content="Solve up to 100 Sokoban-Puzzle levels with the help of your robot friends! Arrange them. Move them. Watch 'em go and... reach the flag in your own style! We got cats, dogs and many more!">
+        
+        <!--Meta tags-->
+        <meta property="og:url" content="https://botolabo.com">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="BOTO LABO">
+        <meta property="og:description" content="Solve up to 100 Sokoban-Puzzle levels with the help of your robot friends! Arrange them. Move them. Watch 'em go and... reach the flag in your own style! We got cats, dogs and many more!">
+        <meta property="og:image" content="http://botolabo.com/assets/img/logos/logo.png">
+        <meta property="og:image:secure_url" content="https://botolabo.com/assets/img/logos/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="480">
+        <meta property="og:image:height" content="480">
+        <meta property="og:image:alt" content="BOTO LABO's logo. It displays Boto, the game protagonist, looking to the left. Boto is a robot with a rectangular head-box with long vertical eyes, long legs and a leaf on their head.">
+        <meta name="twitter:card" content="summary">
+        <meta property="twitter:domain" content="botolabo.com">
+        <meta property="twitter:url" content="https://botolabo.com">
+        <meta name="twitter:title" content="BOTO LABO">
+        <meta name="twitter:description" content="Solve up to 100 Sokoban-Puzzle levels with the help of your robot friends! Arrange them. Move them. Watch 'em go and... reach the flag in your own style! We got cats, dogs and many more!">
+        <meta name="twitter:image" content="https://botolabo.com/assets/img/logos/logo.png">
+        <!--Meta tags-->
+
+        <link rel="icon" type="image/svg+xml" sizes="150x150" href="assets/img/logos/favicon.svg">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/projectBox.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body class="font-monospace" style="font-size: 24px;" id="page">
+
+        <!--Container for header, WIP, languages and modes-->
+        <div class="container">
+            
+            <!--Header with banner and WIP-->
+            <div class="row font-monospace text-center d-flex d-xl-flex justify-content-center align-items-center">
+                <div style="margin-top: 15px;" class="col-md-6">
+                    
+                    <!--Banner-->
+                    <h1>
+                        <a aria-label="Link to Abendiix's website (where you are now)." href="http://abendiix.com" id="linktothisweb">
+                            <img alt="Abendiix's logo in expanded form. The letters are black and the background of the image is transparent (clear mode)."
+                            src="assets/img/logos/blackBanner.svg" style="max-width: 65%;" id="banner" class="changeableColor">
+                        </a>
+                    </h1>
+                    <!--Banner-->
+
+                    <!--WIP-->
+                    <h2 style="margin: 2vh;" id="moto">Demo in April!</h2>
+                    <!--WIP-->
+                </div>
+            </div>
+            <!--Header with banner and WIP-->
+
+            <!--Available languages and modes' section-->
+            <div class="row font-monospace text-center d-flex d-xl-flex justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <a aria-label="Cambiar el idioma de la web a español." role="button" onclick="changeToES()" id="es">ES</a>
+
+                    <a aria-label="Change website's language to Spanish." role="button" style="text-decoration: underline;" onclick="changeToEN()" id="en">ENG</a>
+
+                    <a aria-label="ウェブサイトの言語を日本語に変更する。" role="button" onclick="changeToJA()" id="ja">日本語</a>
+                    |
+                    <a aria-label="Change website colors to clear mode." role="button" onclick="changeToClearMode()" id="clearmode">
+                        <img alt="Icon showing a sun for changing the website to clear mode." src="assets/img/icons/sun.svg" style="width: min(25px, 15%);" id="clear" class="changeableColor">
+                    </a>
+
+                    <a aria-label="Change website colors to dark mode." role="button" onclick="changeToDarkMode()" id="darkmode">
+                        <img alt="Icon showing a moon for changing the website to dark mode." src="assets/img/icons/moon.svg" style="width: min(20px, 10%);" id="dark" class="changeableColor">
+                    </a>
+                    <p id="translationauthor" style="font-size: 15px; display: none; margin: 0px">翻訳： Qulitrans Team</p>
+                </div>
+            </div>
+            <!--Available languages and modes' section-->
+
+        </div>
+        <!--Container for header, WIP, languages and modes-->
+
+        <!--Boto container-->
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                
+                <!--Boto-->
+                <div class="projectBox" id="fonts" style="padding: 25px;">
+                    <div class="row">
+                            
+                        <!--Boto chilling-->
+                        <img alt="Logo for Abendiix's fonts. It shows a upper case A and a lower case a in pixel art style."
+                        src="assets/img/botolaboweb.gif" style="width: inherit" id="botolabowebgif">
+                        <!--Boto chilling-->
+                        
+                    </div>
+                </div>
+                <!--Boto-->
+
+            </div>
+        </div>
+        <!--Boto container-->
+
+        <!--Socials-->
+        <div class="text-center">
+            <div class="container text-justified">
+                <div class="row justify-content-center">
+                    <div style="padding: 0 !important">                        
+                        <!--rss-->
+                        <a aria-label="Link to Abendiix's RSS." href="https://abendiix.com/rss.xml" target="_blank" id="rsslink">
+                            <img alt="RSS icon in black (clear mode) that redirects to Abendiix's RSS."
+                            src="assets/img/icons/rss.svg" style="margin: 5px; width: 35px" id="rss" class="changeableColor"></a>
+                        <!--rss-->
+
+                        <!--twitter-->
+                        <a aria-label="Link to Abendiix's Twitter." href="https://twitter.com/Abendiix" target="_blank" id="twitterlink">
+                            <img alt="Twitter icon in black (clear mode) that redirects to Abendiix's profile."
+                            src="assets/img/icons/x-twitter.svg" style="margin: 5px; width: 35px" id="twitter" class="changeableColor"></a>
+                        <!--twitter-->
+
+                        <!--bluesky-->
+                        <a aria-label="Link to Abendiix's Bluesky." href="https://bsky.app/profile/abendiix.com" target="_blank" id="blueskylink">
+                            <img alt="Bluesky icon in black (clear mode) that redirects to Abendiix's profile."
+                            src="assets/img/icons/bluesky.svg" style="margin: 5px; width: 35px" id="bluesky" class="changeableColor"></a>
+                        <!--bluesky-->
+
+                        <!--tiktok-->
+                        <a aria-label="Link to Abendiix's TikTok." href="https://www.tiktok.com/@abendiix" target="_blank" id="tiktoklink">
+                            <img alt="TikTok icon in black (clear mode) that redirects to Abendiix's profile."
+                            src="assets/img/icons/tiktok.svg" style="margin: 5px; height: 35px" id="tiktok" class="changeableColor"></a>
+                        <!--tiktok-->
+
+                        <!--instagram-->
+                        <a aria-label="Link to Abendiix's Instagram." href="https://www.instagram.com/abendiix/" target="_blank" id="instagramlink">
+                            <img alt="Instagram icon in black (clear mode) that redirects to Abendiix's profile."
+                            src="assets/img/icons/instagram.svg" style="margin: 5px; width: 35px" id="instagram" class="changeableColor"></a>
+                        <!--instagram-->
+
+                        <!--youtube-->
+                        <a aria-label="Link to Abendiix's YouTube." href="https://www.youtube.com/@Abendiix" target="_blank" id="youtubelink">
+                            <img alt="YouTube icon in black (clear mode) that redirects to Abendiix's profile."
+                            src="assets/img/icons/youtube.svg" style="margin: 5px; height: 35px" id="youtube" class="changeableColor"></a>
+                        <!--youtube-->
+
+                        <!--reddit-->
+                        <a aria-label="Link to Abendiix's Reddit." href="https://www.reddit.com/user/Abendiix/" target="_blank" id="redditlink">
+                            <img alt="Reddit icon in black (clear mode) that redirects to Abendiix's profile."
+                            src="assets/img/icons/reddit.svg" style="margin: 5px; width: 35px" id="reddit" class="changeableColor"></a>
+                        <!--reddit-->
+
+                    </div>
+                    <!--Socials' section-->
+                </div>
+            </div>
+        </div>
+        <!--Socials-->
+
+        <!--Contact section-->
+        <div class="text-center" style="margin: 4vh;">
+            <h4 style="margin: 8px;" id="contact">Contact via email</h4>
+            <a aria-label="Copy Abendiix's contact email to clipboard." role="button" style="color: #141414; text-decoration: underline;" onclick="copyEmail()" id="copy" class="changeableColorLink">Copy</a>
+            <a aria-label="Open email app by default to contact Abendiix." href="mailto:contact@abendiix [.] com" style="color: #141414;" id="openApp" class="changeableColorLink">Open app</a>
+        </div>
+        <!--Contact section-->
+
+        <!--Copyright notice-->
+        <div class="text-center" style="font-size: 16px; margin-bottom: 03%;">
+            © 2019-2025 Abendiix - <a aria-label="Link to Creative Commons page about CC0." href="https://creativecommons.org/publicdomain/zero/1.0/" id="cc0">CC0 1.0</a>
+            <br>
+            © 2023 Fonticos, Inc (<a aria-label="Link to Font Awesome's page." href="https://fontawesome.com/" id="fontAwe">Font Awesome</a>) 
+        </div>
+        <!--Copyright notice-->
+
+        <!--Scripts-->
+        <script src="assets/js/copyToClipboardScript.js"></script>
+        <script src="assets/js/languageChanged.js"></script>
+        <script src="assets/js/clearAndDark.js"></script>
+        <script src="assets/js/visibility.js"></script>
+        <!--Scripts-->
+
+    </body>
+</html>
