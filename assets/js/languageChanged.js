@@ -72,7 +72,7 @@ function updateTexts(language)
         //Header
         document.getElementById("linktothisweb").ariaLabel = "Enlace a la página de Abendiix (donde estás ahora).";
         document.getElementById("banner").alt = "Logo de Abendiix en su forma expandida. Las letras están en negro y el fondo es transparente (modo claro).";
-        document.getElementById("moto").innerHTML = "¡Demo en abril!";
+        document.getElementById("moto").innerHTML = "¡Añade BOTO LABO a tu lista de deseados!";
         
         //Languages and modes
         document.getElementById("es").style.textDecoration = "underline";
@@ -121,7 +121,7 @@ function updateTexts(language)
         //Header
         document.getElementById("linktothisweb").ariaLabel = "Link to Abendiix's website (where you are now).";
         document.getElementById("banner").alt = "Abendiix's logo in expanded form. The letters are black and the background of the image is transparent (clear mode).";
-        document.getElementById("moto").innerHTML = "Demo in April!";
+        document.getElementById("moto").innerHTML = "Wishlist BOTO LABO!";
         
         //Languages and modes
         document.getElementById("es").style.textDecoration = "none";
@@ -172,7 +172,7 @@ function updateTexts(language)
         //Header
         document.getElementById("linktothisweb").ariaLabel = "Abendiixのウェブサイトへのリンク（現在のページ）。";
         document.getElementById("banner").alt = "Abendiixのロゴの拡大版。文字は黒で、画像の背景は透明（クリアモード）です。";
-        document.getElementById("moto").innerHTML = "4月のデモ！";
+        document.getElementById("moto").innerHTML = "Steamウィッシュリスト！";
         
         //Languages and modes
         document.getElementById("es").style.textDecoration = "none";
