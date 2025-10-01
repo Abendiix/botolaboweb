@@ -86,6 +86,52 @@ function updateTexts(language)
 
         document.getElementById("translationauthor").style.display = "none";
 
+        //Sections
+        document.getElementById("sections").innerHTML = "Apartados |";
+        document.getElementById("sectionsabout").ariaLabel = "Mostrar Acerca de.";
+        document.getElementById("sectionsabout").innerHTML = "Acerca de";
+        document.getElementById("sectionsabout").ariaLabel = "Mostrar kit de prensa.";
+        document.getElementById("sectionspresskit").innerHTML = "Kit de prensa";
+
+        //About
+        document.getElementById("bt").innerHTML = "Acerca de BOTO LABO";
+        
+        document.getElementById("p1").innerHTML = "BOTO LABO es un juego Sokoban-Puzle donde Boto<sup>1</sup>, el protagonista, ¡necesitará la ayuda de sus amigos robot para completar los niveles!";
+        document.getElementById("botolabowebgif").alt = "Gif del protagonista de BOTO LABO, Boto, reproduciendo su animación idle. Boto se mueve de arriba a abajo mientras que la hoja de su cabeza le sigue."
+        
+        document.getElementById("p2").innerHTML = "Estos amigos robot se llaman Mibo<sup>2</sup>, y la única forma de completar los niveles es haciendo que alcancen la bandera<sup>3</sup> de cada nivel. Para lograrlo, tendrás que moverlos y girarlos para encontrar la solución (¡puede haber más de una!)<sup>4</sup>.";
+        document.getElementById("mibowebpng").alt = "Mibo, el amigo robot de Boto. Mibo es un robot con una cabeza rectangular con dos ruedas conectadas, con ambas partes unidas por el cuello.";
+        document.getElementById("flagwebpng").alt = "La bandera amarilla que aparece en cada nivel en BOTO LABO.";
+        document.getElementById("levelwebgif").alt = "Gif de Boto moviéndose por un nivel de ejemplo donde mueve a Mibo para resolverlo.";
+        document.getElementById("p3").innerHTML = "4 - ¡Hay 16 formas en las que se puede resolver este nivel! (y sí, ¡Boto puede estirar su pierna hasta el infinito!)";
+        
+        document.getElementById("p4").innerHTML = "¡Al jugar encontrarás diferentes mecánicas a lo largo de los niveles que te ayudarán a resolverlos y hacer que las interacciones de los Mibos sean más interesantes! (pista: ¡se asustan fácilmente!).";
+
+        //Presskit
+        document.getElementById("prsskt").innerHTML = "Kit de prensa";
+
+        document.getElementById("downevery").innerHTML = "Descargar todos los archivos";
+
+        document.getElementById("logopk").alt = "Logo de BOTO LABO. Muestra el protagonista, Boto, mirando hacia la izquierda.";       
+        document.getElementById("logosvg").innerHTML = "Descargar SVG";
+        document.getElementById("logopng").innerHTML = "Descargar PNG";
+        document.getElementById("titleclearpk").alt = "Título de BOTO LABO en blanco.";       
+        document.getElementById("titleclearsvg").innerHTML = "Descargar SVG";
+        document.getElementById("titleclearpng").innerHTML = "Descargar PNG";
+        document.getElementById("titledarkpk").alt = "Título de BOTO LABO en negro.";       
+        document.getElementById("titledarksvg").innerHTML = "Descargar SVG";
+        document.getElementById("titledarkpng").innerHTML = "Descargar PNG";
+        document.getElementById("capsuleartpk").alt = "Arte cápsula de BOTO LABO. Muestra el título del juego y un dibujo de Boto estirando su pierna para alcanzar la bandera.";       
+        document.getElementById("capsuleartsvg").innerHTML = "Descargar SVG";
+        document.getElementById("capsuleartpng").innerHTML = "Descargar PNG";
+        document.getElementById("capsuleartnopk").alt = "Arte cápsula de BOTO LABO. Muestra un dibujo de Boto estirando su pierna para alcanzar la bandera.";       
+        document.getElementById("capsuleartnosvg").innerHTML = "Descargar SVG";
+        document.getElementById("capsuleartnopng").innerHTML = "Descargar PNG";
+        document.getElementById("verticalartpk").alt = "Arte vertical de BOTO LABO. Muestra el título del juego, un dibujo de Boto estirando su pierna para alcanzar la bandera y varios diseños del propio videojuego en la parte de abajo.";       
+        document.getElementById("verticalartsvg").innerHTML = "Descargar SVG";
+        document.getElementById("verticalartpng").innerHTML = "Descargar PNG";
+
+        //Socials
         document.getElementById("rsslink").ariaLabel = "Enlace al RSS de Abendiix.";
         document.getElementById("rss").alt = "Icono negro de RSS que redirige al RSS de Abendiix.";
         document.getElementById("twitterlink").ariaLabel = "Enlace al Twitter de Abendiix.";
@@ -112,15 +158,18 @@ function updateTexts(language)
         //Copyright
         document.getElementById("cc0").ariaLabel = "Enlace a la página de Creative Commons sobre CC0.";
         document.getElementById("fontAwe").ariaLabel = "Enlace a la página de Font Awesome.";
+
+        //Made by
+        document.getElementById("madeby").innerHTML = "Hecho por";
     }
     else if (localStorage.getItem("language") == 'en')
     {
         //Meta
-        document.title = "Abendiix | Games, tools and more!"
+        document.title = "BOTO LABO"
 
         //Header
-        document.getElementById("linktothisweb").ariaLabel = "Link to Abendiix's website (where you are now).";
-        document.getElementById("banner").alt = "Abendiix's logo in expanded form. The letters are black and the background of the image is transparent (clear mode).";
+        document.getElementById("linktothisweb").ariaLabel = "Link to BOTO LABO's website (where you are now).";
+        document.getElementById("banner").alt = "BOTO LABO's title design.";
         document.getElementById("moto").innerHTML = "Wishlist BOTO LABO!";
         
         //Languages and modes
@@ -135,8 +184,52 @@ function updateTexts(language)
 
         document.getElementById("translationauthor").style.display = "none";
 
-        document.getElementById("botolabowebgif").alt = "(GIF) Boto blinking and going up and down while their leaf follows the up and down motion about their head.";
+        //Sections
+        document.getElementById("sections").innerHTML = "Sections |";
+        document.getElementById("sectionsabout").ariaLabel = "Show About.";
+        document.getElementById("sectionsabout").innerHTML = "About";
+        document.getElementById("sectionsabout").ariaLabel = "Show Presskit.";
+        document.getElementById("sectionspresskit").innerHTML = "Presskit";
 
+        //About
+        document.getElementById("bt").innerHTML = "About BOTO LABO";
+        
+        document.getElementById("p1").innerHTML = "BOTO LABO is a Sokoban-Puzzle game where Boto<sup>1</sup>, the protagonist, will need the help of their robot friends to complete the levels!";
+        document.getElementById("botolabowebgif").alt = "Gif of BOTO LABO's protagonist, Boto, playing their idle animation. Boto is moving up and down as the leaf on their head follows them."
+        
+        document.getElementById("p2").innerHTML = "These robot friends are called Mibo<sup>2</sup>, and the only way they can complete the levels is by making them reach each level's flag<sup>3</sup>. To do so, you will have to move and turn them around to find the solution (which may be more than one!)<sup>4</sup>.";
+        document.getElementById("mibowebpng").alt = "Mibo, Boto's robot friend. Mibo is a robot with a rectangular head and two connected wheels, with both parts joined by their neck.";
+        document.getElementById("flagwebpng").alt = "The yellow flag that shows on each level on BOTO LABO.";
+        document.getElementById("levelwebgif").alt = "Gif of Boto moving around in an example level where it moves Mibo around to solve it.";
+        document.getElementById("p3").innerHTML = "4 - There are 16 ways this level can be solved! (and yes, Boto can stretch their leg to infinity!)";
+        
+        document.getElementById("p4").innerHTML = "While playing you will find different mechanics across the levels that will help you solve them and make the Mibos' interactions a lot more interesting! (hint: they get scared very easily!).";
+
+        //Presskit
+        document.getElementById("prsskt").innerHTML = "Presskit";
+
+        document.getElementById("downevery").innerHTML = "Download every file";
+
+        document.getElementById("logopk").alt = "BOTO LABO's logo. It shows its protagonist, Boto, looking to the left.";       
+        document.getElementById("logosvg").innerHTML = "Download SVG";
+        document.getElementById("logopng").innerHTML = "Download PNG";
+        document.getElementById("titleclearpk").alt = "BOTO LABO's title in white.";       
+        document.getElementById("titleclearsvg").innerHTML = "Download SVG";
+        document.getElementById("titleclearpng").innerHTML = "Download PNG";
+        document.getElementById("titledarkpk").alt = "BOTO LABO's title in black.";       
+        document.getElementById("titledarksvg").innerHTML = "Download SVG";
+        document.getElementById("titledarkpng").innerHTML = "Download PNG";
+        document.getElementById("capsuleartpk").alt = "BOTO LABO's capsule art. It shows the title of the game and a drawing of Boto stretching their leg to reach for the flag.";       
+        document.getElementById("capsuleartsvg").innerHTML = "Download SVG";
+        document.getElementById("capsuleartpng").innerHTML = "Download PNG";
+        document.getElementById("capsuleartnopk").alt = "BOTO LABO's capsule art. It shows a drawing of Boto stretching their leg to reach for the flag.";       
+        document.getElementById("capsuleartnosvg").innerHTML = "Download SVG";
+        document.getElementById("capsuleartnopng").innerHTML = "Download PNG";
+        document.getElementById("verticalartpk").alt = "BOTO LABO's vertical art. It shows the title of the game and a drawing of Boto stretching their leg to reach for the flag and some design from the game at the bottom.";       
+        document.getElementById("verticalartsvg").innerHTML = "Download SVG";
+        document.getElementById("verticalartpng").innerHTML = "Download PNG";
+
+        //Socials
         document.getElementById("rsslink").ariaLabel = "Link to Abendiix's RSS.";
         document.getElementById("rss").alt = "RSS icon in black (clear mode) that redirects to Abendiix's RSS.";
         document.getElementById("twitterlink").ariaLabel = "Link to Abendiix's Twitter.";
@@ -163,6 +256,9 @@ function updateTexts(language)
         //Copyright
         document.getElementById("cc0").ariaLabel = "Link to Creative Commons page about CC0.";
         document.getElementById("fontAwe").ariaLabel = "Link to Font Awesome's page.";
+
+        //Made by
+        document.getElementById("madeby").innerHTML = "Hecho por";
     }
     else if (localStorage.getItem("language") == 'ja')
     {

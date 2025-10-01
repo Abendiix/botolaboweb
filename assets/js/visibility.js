@@ -22,55 +22,25 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-var all = document.getElementById("projectsall");
-var games = document.getElementById("projectsgames");
-var tools = document.getElementById("projectstools");
-var art = document.getElementById("projectsart");
+var about = document.getElementById("about");
+var presskit = document.getElementById("presskit");
 
-var spriteslove = document.getElementById("spriteslove");
-var trom = document.getElementById("trom");
-var fonts = document.getElementById("fonts");
+var sectionsabout = document.getElementById("sectionsabout");
+var sectionspresskit = document.getElementById("sectionspresskit");
 
-function showAll()
+
+function showAbout()
 {
-    spriteslove.style.display = "block";
-    trom.style.display = "block";
-    fonts.style.display = "block";
-    all.style.textDecoration = "underline";
-    games.style.textDecoration = "none";
-    tools.style.textDecoration = "none";
-    art.style.textDecoration = "none";
+    about.style.display = "block";
+    presskit.style.display = "none";
+    sectionsabout.style.textDecoration = "underline";
+    sectionspresskit.style.textDecoration = "none";
 }
 
-function showGames()
+function showPresskit()
 {
-    spriteslove.style.display = "none";
-    trom.style.display = "block";
-    fonts.style.display = "none";
-    all.style.textDecoration = "none";
-    games.style.textDecoration = "underline";
-    tools.style.textDecoration = "none";
-    art.style.textDecoration = "none";
-}
-
-function showTools()
-{
-    spriteslove.style.display = "block";
-    trom.style.display = "none";
-    fonts.style.display = "none";
-    all.style.textDecoration = "none";
-    games.style.textDecoration = "none";
-    tools.style.textDecoration = "underline";
-    art.style.textDecoration = "none";
-}
-
-function showArt()
-{
-    spriteslove.style.display = "none";
-    trom.style.display = "none";
-    fonts.style.display = "block";
-    all.style.textDecoration = "none";
-    games.style.textDecoration = "none";
-    tools.style.textDecoration = "none";
-    art.style.textDecoration = "underline";
+    about.style.display = "none";
+    presskit.style.display = "block";
+    sectionsabout.style.textDecoration = "none";
+    sectionspresskit.style.textDecoration = "underline";
 }

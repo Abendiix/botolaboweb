@@ -8,7 +8,7 @@
    shape-rendering="crispEdges"
    id="svg75"
    sodipodi:docname="favicon.svg"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    inkscape:export-filename="logo.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -27,15 +27,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.72506067"
-     inkscape:cx="199.29367"
-     inkscape:cy="208.94803"
+     inkscape:zoom="1.0253906"
+     inkscape:cx="245.27239"
+     inkscape:cy="259.90096"
      inkscape:window-width="1536"
      inkscape:window-height="792"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg75" />
+     inkscape:current-layer="svg75"
+     showguides="true" />
   <rect
      style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:787.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.4"
      id="rect78"
@@ -47,27 +48,30 @@
      sodipodi:insensitive="true" />
   <g
      id="g1"
-     inkscape:label="Boto"
-     transform="translate(0,20)">
+     transform="translate(-32.466755,41.742815)">
     <path
-       d="m 120,204 v 24 24 24 24 h 24 v -24 -24 -24 -24 z"
-       style="fill:#ffffff;stroke-width:24"
-       id="path77"
-       inkscape:label="eye1" />
+       d="m 272.46675,0 v 22.028294 h -22.0283 v 22.028299 22.0283 h 22.0283 22.02831 v -22.0283 h 22.02829 V 22.028294 0 h -22.02829 z"
+       style="fill:#03a436;stroke-width:2.20287"
+       id="path5" />
     <path
-       d="m 240,204 v 24 24 24 24 h 24 v -24 -24 -24 -24 z"
-       style="fill:#ffffff;stroke-width:24"
-       id="path76"
-       inkscape:label="eye2" />
+       d="m 162.32276,132.17229 v 22.0283 22.02829 22.0283 22.0283 h 22.0283 v -22.0283 -22.0283 -22.02829 -22.0283 z"
+       style="fill:#ffffff;stroke-width:2.20287"
+       id="path3" />
     <path
-       d="m 72,156 v 24 24 24 24 24 24 24 24 h 24 24 24 24 24 24 24 24 24 24 24 24 24 24 V 324 300 276 252 228 204 180 156 H 384 360 336 312 288 264 240 216 192 168 144 120 96 Z m 24,24 h 24 24 24 24 24 24 24 24 v 24 24 24 24 24 24 H 264 240 216 192 168 144 120 96 v -24 -24 -24 -24 -24 z m 216,0 h 24 24 24 v 24 24 24 24 24 24 h -24 -24 -24 v -24 -24 -24 -24 -24 z"
-       style="fill:#ffffff;stroke-width:24"
-       id="path75"
-       inkscape:label="head" />
+       d="m 272.46675,132.17229 v 22.0283 22.02829 22.0283 22.0283 h 22.02831 v -22.0283 -22.0283 -22.02829 -22.0283 z"
+       style="fill:#ffffff;stroke-width:2.20287"
+       id="path4" />
     <path
-       d="m 240,60 v 24 h -24 v 24 24 h 24 24 v -24 h 24 V 84 60 h -24 z"
-       style="fill:#03a436;stroke-width:24"
-       id="path79"
-       inkscape:label="leaf" />
+       d="m 118.26617,88.113192 v 22.028288 22.03081 22.0283 22.02829 22.0283 22.0283 22.0283 22.02828 h 22.0283 22.02829 22.0283 22.03081 22.02829 22.02829 22.0283 22.02831 22.02829 22.02829 22.03082 22.02828 22.02831 22.02829 v -22.02828 -22.0283 -22.0283 -22.0283 -22.02829 -22.0283 -22.03081 -22.028288 h -22.02829 -22.02831 -22.02828 -22.03082 -22.02829 -22.02829 -22.02831 -22.0283 -22.02829 -22.02829 -22.03081 -22.0283 -22.02829 z m 22.0283,22.028288 h 22.02829 22.0283 22.03081 22.02829 22.02829 22.0283 22.02831 22.02829 v 22.03081 22.0283 22.02829 22.0283 22.0283 22.0283 h -22.02829 -22.02831 -22.0283 -22.02829 -22.02829 -22.03081 -22.0283 -22.02829 v -22.0283 -22.0283 -22.0283 -22.02829 -22.0283 z m 198.25717,0 h 22.03082 22.02828 22.02831 v 22.03081 22.0283 22.02829 22.0283 22.0283 22.0283 h -22.02831 -22.02828 -22.03082 v -22.0283 -22.0283 -22.0283 -22.02829 -22.0283 z"
+       style="fill:#ffffff;stroke-width:2.20287"
+       id="path6" />
+    <path
+       d="m 184.35106,286.37288 v 22.02829 22.0283 22.0283 22.02829 h -22.0283 -22.02829 v 22.02831 h 22.02829 22.0283 22.03081 v -22.02831 -22.02829 -22.0283 -22.0283 -22.02829 z"
+       style="fill:#ffffff;stroke-width:2.20287"
+       id="path2" />
+    <path
+       d="m 338.55164,286.37288 v 22.02829 22.0283 22.0283 22.02829 h -22.02829 -22.02829 v 22.02831 h 22.02829 22.02829 22.03082 v -22.02831 -22.02829 -22.0283 -22.0283 -22.02829 z"
+       style="fill:#ffffff;stroke-width:2.20287"
+       id="path1" />
   </g>
 </svg>

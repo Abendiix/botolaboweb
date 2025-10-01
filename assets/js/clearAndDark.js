@@ -67,6 +67,7 @@ function changeToClearMode()
     localStorage.setItem("mode", "clear");
     page.style.backgroundColor = "rgb(255, 255, 255)";
     page.style.color = "rgb(20, 20, 20)";
+    document.getElementById("moto").style.color = "rgb(20, 20, 20)";
     document.getElementById("cc0").style.color = "rgb(20, 20, 20)";
     document.getElementById("fontAwe").style.color = "rgb(20, 20, 20)";
 
@@ -86,6 +87,7 @@ function changeToDarkMode()
     localStorage.setItem("mode", "dark");
     page.style.backgroundColor = "rgb(30, 30, 30)";
     page.style.color = "rgb(235, 235, 235)";
+    document.getElementById("moto").style.color = "rgb(235, 235, 235)";
     document.getElementById("cc0").style.color = "rgb(235, 235, 235)";
     document.getElementById("fontAwe").style.color = "rgb(235, 235, 235)";
 

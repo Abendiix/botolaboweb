@@ -28,6 +28,7 @@ SOFTWARE.
     <head>
         <title>BOTO LABO</title>
         <meta charset="utf-8">
+        <meta name="title" content="BOTO LABO">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta name="description" content="Solve up to 100 Sokoban-Puzzle levels with the help of your robot friends! Arrange them. Move them. Watch 'em go and... reach the flag in your own style! We got cats, dogs and many more!">
         
@@ -53,23 +54,22 @@ SOFTWARE.
         <link rel="icon" type="image/svg+xml" sizes="150x150" href="assets/img/logos/favicon.svg">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/projectBox.css">
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
 
     <body class="font-monospace" style="font-size: 24px;" id="page">
 
-        <!--Container for header, WIP, languages and modes-->
+        <!--Container for header, wishlist link, languages and modes-->
         <div class="container">
             
-            <!--Header with banner and WIP-->
+            <!--Header with banner and wishlist link-->
             <div class="row font-monospace text-center d-flex d-xl-flex justify-content-center align-items-center">
-                <div style="margin-top: 15px;" class="col-md-6">
+                <div style="margin-top: 15px;" class="col-md-8">
                     
                     <!--Banner-->
                     <h1>
-                        <a aria-label="Link to Abendiix's website (where you are now)." href="http://abendiix.com" id="linktothisweb">
-                            <img alt="Abendiix's logo in expanded form. The letters are black and the background of the image is transparent (clear mode)."
+                        <a aria-label="Link to BOTO LABOS's website (where you are now)." href="http://botolabo.com" id="linktothisweb">
+                            <img alt="BOTO LABO's title design."
                             src="assets/img/logos/blackBanner.svg" style="max-width: 65%;" id="banner" class="changeableColor">
                         </a>
                     </h1>
@@ -82,7 +82,7 @@ SOFTWARE.
                     <!--WIP-->
                 </div>
             </div>
-            <!--Header with banner and WIP-->
+            <!--Header with banner and wishlist link-->
 
             <!--Available languages and modes' section-->
             <div class="row font-monospace text-center d-flex d-xl-flex justify-content-center align-items-center">
@@ -91,7 +91,7 @@ SOFTWARE.
 
                     <a aria-label="Change website's language to Spanish." role="button" style="text-decoration: underline;" onclick="changeToEN()" id="en">ENG</a>
 
-                    <a aria-label="ウェブサイトの言語を日本語に変更する。" role="button" onclick="changeToJA()" id="ja">日本語</a>
+                    <a aria-label="ウェブサイトの言語を日本語に変更する。" role="button" onclick="changeToJA()" style="display: none" id="ja">日本語</a>
                     |
                     <a aria-label="Change website colors to clear mode." role="button" onclick="changeToClearMode()" id="clearmode">
                         <img alt="Icon showing a sun for changing the website to clear mode." src="assets/img/icons/sun.svg" style="width: min(25px, 15%);" id="clear" class="changeableColor">
@@ -106,24 +106,189 @@ SOFTWARE.
             <!--Available languages and modes' section-->
 
         </div>
-        <!--Container for header, WIP, languages and modes-->
+        <!--Container for header, wishlist link, languages and modes-->
 
         <!--Boto container-->
-        <div class="container text-center">
-            <div class="row justify-content-center">
+        <div class="container">
+            <div class="row">
                 
-                <!--Boto-->
-                <div class="projectBox" id="fonts" style="padding: 25px;">
-                    <div class="row">
-                            
-                        <!--Boto chilling-->
-                        <img alt="Logo for Abendiix's fonts. It shows a upper case A and a lower case a in pixel art style."
-                        src="assets/img/botolaboweb.gif" style="width: inherit" id="botolabowebgif">
-                        <!--Boto chilling-->
-                        
+
+            <!--Container for sections' filters-->
+            <div class="container" style="margin-top: 2vh;">
+                <h3 id="projectsh3" style="margin-bottom: 1rem;"> <p id="sections" style="display: inline;">Sections |</p>
+
+                    <a aria-label="Show About." role="button" onclick="showAbout()" id="sectionsabout" style="text-decoration: underline; margin-right: 10px;">About</a>
+
+                    <a aria-label="Show Presskit." role="button" onclick="showPresskit()" id="sectionspresskit"style="margin-right: 10px;">Presskit</a>
+
+                </h3>
+            </div>
+            <!--Container for sections' filters-->
+
+            <!--Sections' container-->
+            <div class="container">
+                <div class="row" style="margin-top: 2vh;">
+                    
+                    <!--About box-->
+                    <div id="about">
+                        <div class="row">
+
+                            <!--About title-->
+                            <h4 id="bt">
+                                About BOTO LABO
+                            </h4>
+                            <!--About title-->
+
+                            <!--About's paragraphs-->
+                            <p id="p1">
+                                BOTO LABO is a Sokoban-Puzzle game where Boto<sup>1</sup>, the protagonist, will need the help of their robot friends to complete the levels!
+                            </p>
+
+                            <!--Boto chilling-->
+                            <div class="row font-monospace text-center d-flex d-xl-flex justify-content-center align-items-center">
+                                <div class="col-md-6">    
+                                    <img alt="Gif of BOTO LABO's protagonist, Boto, playing their idle animation. Boto is moving up and down as the leaf on their head follows them."
+                                        src="assets/img/botolaboweb.gif" style="width: 20%" id="botolabowebgif">            
+
+                                    <div class="row">
+                                        <p>
+                                            1
+                                        </p>                    
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Boto chilling-->
+
+                            <p id="p2">
+                                These robot friends are called Mibo<sup>2</sup>, and the only way they can complete the levels is by making them reach each level's flag<sup>3</sup>. To do so, you will have to move and turn them around to find the solution (which may be more than one!)<sup>4</sup>.
+                            </p>
+
+                            <!--Mibo, flag and level-->
+                            <div class="row font-monospace text-center d-flex d-xl-flex justify-content-center align-items-center">
+                                <div class="col-md-6">    
+                                    <img alt="Mibo, Boto's robot friend. Mibo is a robot with a rectangular head and two connected wheels, with both parts joined by their neck."
+                                        src="assets/img/miboweb.png" style="width: 20%" id="mibowebpng">            
+
+                                    <div class="row">
+                                        <p>
+                                            2
+                                        </p>                    
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6">    
+                                    <img alt="The yellow flag that shows on each level on BOTO LABO."
+                                        src="assets/img/flagweb.png" style="width: 20%" id="flagwebpng">
+
+                                    <div class="row">
+                                        <p>
+                                            3
+                                        </p>                    
+                                    </div>
+                                </div>
+                                <div class="col-md-6">    
+                                    <img alt="Gif of Boto moving around in an example level where it moves Mibo around to solve it."
+                                        src="assets/img/levelweb.gif" style="width: 50%" id="levelwebgif">            
+
+                                    <div class="row">
+                                        <p id="p3">
+                                            4 - There are 16 ways this level can be solved! (and yes, Boto can stretch their leg to infinity!)
+                                        </p>                    
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Mibo, flag and level-->
+
+                            <p id="p4">
+                                While playing you will find different mechanics across the levels that will help you solve them and make the Mibos' interactions a lot more interesting! (hint: they get scared very easily!). 
+                            </p>
+                            <!--About's paragraphs-->
+
+                        </div>
                     </div>
+                    <!--About box-->
+
+                    <!--Presskit box-->
+                    <div id="presskit" style="display: none">
+                        <div class="row">
+
+                            <!--Presskit title-->
+                            <h4 id="prsskt">Presskit</h4>
+                            <!--Presskit title-->
+
+                            <a id="downevery" href="assets/presskit/presskit.zip">Download every file</a>
+
+                            <!--Images-->
+                            <div class="row font-monospace text-center d-flex d-xl-flex justify-content-center align-items-center">
+                                <img alt="BOTO LABO's logo. It shows its protagonist, Boto, looking to the left."
+                                    src="assets/presskit/logo.svg" style="width: 20%" id="logopk">            
+
+                                <div class="row">
+                                    <p>
+                                        <a id="logosvg" href="assets/presskit/logo.svg" download>Download SVG</a>
+                                        <a id="logopng" href="assets/presskit/logo.png" download>Download PNG</a>
+                                    </p>                    
+                                </div>
+
+                                <img alt="BOTO LABO's title in white."
+                                    src="assets/presskit/title_clear.svg" style="background-color:rgb(30, 30, 30); width: 20%; padding: 2%; border-radius: 5px;" id="titleclearpk">            
+
+                                <div class="row">
+                                    <p>
+                                        <a id="titleclearsvg" href="assets/presskit/title_clear.svg" download>Download SVG</a>
+                                        <a id="titleclearpng" href="assets/presskit/title_clear.png" download>Download PNG</a>
+                                    </p>                    
+                                </div>
+
+                                <img alt="BOTO LABO's title in black."
+                                    src="assets/presskit/title_dark.svg" style="background-color:rgb(235, 235, 235); width: 20%; padding: 2%; border-radius: 5px;" id="titledarkpk">            
+
+                                <div class="row">
+                                    <p>
+                                        <a id="titledarksvg" href="assets/presskit/title_dark.svg" download>Download SVG</a>
+                                        <a id="titledarkpng" href="assets/presskit/title_dark.png" download>Download PNG</a>
+                                    </p>                    
+                                </div>
+
+                                <img alt="BOTO LABO's capsule art. It shows the title of the game and a drawing of Boto stretching their leg to reach for the flag."
+                                    src="assets/presskit/capsule_art.svg" style="background-color:rgb(30, 30, 30); width: 20%; padding: 2%; border-radius: 5px;" id="capsuleartpk">            
+
+                                <div class="row">
+                                    <p>
+                                        <a id="capsuleartsvg" href="assets/presskit/capsule_art.svg" download>Download SVG</a>
+                                        <a id="capsuleartpng" href="assets/presskit/capsule_art.png" download>Download PNG</a>
+                                    </p>                    
+                                </div>
+
+                                <img alt="BOTO LABO's capsule art. It shows a drawing of Boto stretching their leg to reach for the flag."
+                                    src="assets/presskit/capsule_art_no_title.svg" style="background-color:rgb(30, 30, 30); width: 20%; padding: 2%; border-radius: 5px;" id="capsuleartnopk">            
+
+                                <div class="row">
+                                    <p>
+                                        <a id="capsuleartnosvg" href="assets/presskit/capsule_art_no_title.svg" download>Download SVG</a>
+                                        <a id="capsuleartnopng" href="assets/presskit/capsule_art_no_title.png" download>Download PNG</a>
+                                    </p>                    
+                                </div>
+
+                                <img alt="BOTO LABO's vertical art. It shows the title of the game and a drawing of Boto stretching their leg to reach for the flag and some design from the game at the bottom."
+                                    src="assets/presskit/vertical_art.svg" style="background-color:rgb(30, 30, 30); width: 20%; padding: 2%; border-radius: 5px;" id="verticalartpk">            
+
+                                <div class="row">
+                                    <p>
+                                        <a id="verticalartsvg" href="assets/presskit/vertical_art.svg" download>Download SVG</a>
+                                        <a id="verticalartpng" href="assets/presskit/vertical_art.png" download>Download PNG</a>
+                                    </p>                    
+                                </div>
+                            </div>
+                            <!--Images-->
+
+                            </div>
+                        </div>
+                    <!--Presskit box-->
+
                 </div>
-                <!--Boto-->
+            </div>
+            <!--Sections' container-->
 
             </div>
         </div>
@@ -192,12 +357,28 @@ SOFTWARE.
         <!--Contact section-->
 
         <!--Copyright notice-->
-        <div class="text-center" style="font-size: 16px; margin-bottom: 03%;">
+        <div class="text-center" style="font-size: 16px;">
             © 2019-2025 Abendiix - <a aria-label="Link to Creative Commons page about CC0." href="https://creativecommons.org/publicdomain/zero/1.0/" id="cc0">CC0 1.0</a>
             <br>
             © 2023 Fonticos, Inc (<a aria-label="Link to Font Awesome's page." href="https://fontawesome.com/" id="fontAwe">Font Awesome</a>) 
         </div>
         <!--Copyright notice-->
+        
+        <!--"Made by" section-->
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-lg-2 d-flex justify-content-center align-items-center" style="min-width: 30%; padding: 20px; margin-bottom: 1%;">
+                    <div>
+                        <h1 id="madeby" class="text-center" style="font-size: 24px;">Made by</h1>
+                        <div class="d-flex justify-content-center" data-bss-hover-animate="tada">
+                            <a aria-label="Link to Abendiix's website." href="https://abendiix.com" target="_blank">
+                                <img class="changeableColor" src="assets/img/logos/logo_abendiix.svg" style="min-width: 60px; max-width: 10vh"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--"Made by" section-->
+
 
         <!--Scripts-->
         <script src="assets/js/copyToClipboardScript.js"></script>
