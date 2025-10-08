@@ -258,7 +258,7 @@ function updateTexts(language)
         document.getElementById("fontAwe").ariaLabel = "Link to Font Awesome's page.";
 
         //Made by
-        document.getElementById("madeby").innerHTML = "Hecho por";
+        document.getElementById("madeby").innerHTML = "Made by";
     }
     else if (localStorage.getItem("language") == 'ja')
     {
