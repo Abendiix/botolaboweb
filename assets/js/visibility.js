@@ -33,14 +33,28 @@ function showAbout()
 {
     about.style.display = "block";
     presskit.style.display = "none";
+    demos.style.display = "none";
     sectionsabout.style.textDecoration = "underline";
     sectionspresskit.style.textDecoration = "none";
+    sectionsdemos.style.textDecoration = "none";
 }
 
 function showPresskit()
 {
     about.style.display = "none";
     presskit.style.display = "block";
+    demos.style.display = "none";
     sectionsabout.style.textDecoration = "none";
     sectionspresskit.style.textDecoration = "underline";
+    sectionsdemos.style.textDecoration = "none";
+}
+
+function showDemos()
+{
+    about.style.display = "none";
+    presskit.style.display = "none";
+    demos.style.display = "block";
+    sectionsabout.style.textDecoration = "none";
+    sectionspresskit.style.textDecoration = "none";
+    sectionsdemos.style.textDecoration = "underline";
 }

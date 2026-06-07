@@ -72,7 +72,7 @@ function updateTexts(language)
         //Header
         document.getElementById("linktothisweb").ariaLabel = "Enlace a la página de Abendiix (donde estás ahora).";
         document.getElementById("banner").alt = "Logo de Abendiix en su forma expandida. Las letras están en negro y el fondo es transparente (modo claro).";
-        document.getElementById("moto").innerHTML = "¡Añade BOTO LABO a tu lista de deseados!";
+        document.getElementById("moto").innerHTML = "¡Añade BOTO LABO a tu lista de deseados! - DEMO EN JULIO";
         
         //Languages and modes
         document.getElementById("es").style.textDecoration = "underline";
@@ -131,6 +131,25 @@ function updateTexts(language)
         document.getElementById("verticalartsvg").innerHTML = "Descargar SVG";
         document.getElementById("verticalartpng").innerHTML = "Descargar PNG";
 
+        //Demos
+        document.getElementById("alphav2").innerHTML = "BCN Game Fest 2025 - Alfa V2";
+        document.getElementById("alphav1").innerHTML = "BCN Game Fest 2025 - Alfa V1";
+        document.getElementById("pd1").innerHTML = "Aquí encontrarás las demos de BOTO LABO de diferentes ferias de videojuegos. Ambas versiones tienen bugs conocidos y ya se han arreglado para el lanzamiento de la demo de Steam.";
+        document.getElementById("pd2").innerHTML = "¡No dudes en ponerte en contacto vía redes sociales o correo electrónico para opinar del juego o notificar cualquier bug!";
+        document.getElementById("pd3").innerHTML = "Nota: La interfaz gráfica de la demo tenía el uso de mandos en mente - Referencias para el teclado si juegas la demo con uno:";
+        document.getElementById("pd4").innerHTML = "También se puede usar el ratón para hacer click en la interfaz gráfica.";
+        document.getElementById("pd5").innerHTML = "Nota: La interfaz gráfica de la demo tenía el uso de mandos en mente - Referencias para el teclado si juegas la demo con uno:";
+        document.getElementById("pd6").innerHTML = "También se puede usar el ratón para hacer click en la interfaz gráfica.";
+        document.getElementById("liy1").innerHTML = "Y del mando -> Barra espaciadora";
+        document.getElementById("lib1").innerHTML = "B del mando -> E";
+        document.getElementById("lia1").innerHTML = "A del mando -> R";
+        document.getElementById("liy2").innerHTML = "Y del mando -> Barra espaciadora";
+        document.getElementById("lib2").innerHTML = "B del mando -> E";
+        document.getElementById("lia2").innerHTML = "A del mando -> R";
+        document.getElementById("lix").innerHTML = "X del mando -> Q";
+        document.getElementsByClassName
+        document.getElementById("capsuleartnopk").alt = "Arte cápsula de BOTO LABO. Muestra un dibujo de Boto estirando su pierna para alcanzar la bandera.";
+
         //Socials
         document.getElementById("rsslink").ariaLabel = "Enlace al RSS de Abendiix.";
         document.getElementById("rss").alt = "Icono negro de RSS que redirige al RSS de Abendiix.";
@@ -170,7 +189,7 @@ function updateTexts(language)
         //Header
         document.getElementById("linktothisweb").ariaLabel = "Link to BOTO LABO's website (where you are now).";
         document.getElementById("banner").alt = "BOTO LABO's title design.";
-        document.getElementById("moto").innerHTML = "Wishlist BOTO LABO!";
+        document.getElementById("moto").innerHTML = "Wishlist BOTO LABO! - DEMO IN JULY";
         
         //Languages and modes
         document.getElementById("es").style.textDecoration = "none";
@@ -228,6 +247,23 @@ function updateTexts(language)
         document.getElementById("verticalartpk").alt = "BOTO LABO's vertical art. It shows the title of the game and a drawing of Boto stretching their leg to reach for the flag and some design from the game at the bottom.";       
         document.getElementById("verticalartsvg").innerHTML = "Download SVG";
         document.getElementById("verticalartpng").innerHTML = "Download PNG";
+
+        //Demos
+        document.getElementById("alphav2").innerHTML = "BCN Game Fest 2025 - Alpha V2";
+        document.getElementById("alphav1").innerHTML = "BCN Game Fest 2025 - Alpha V1";
+        document.getElementById("pd1").innerHTML = "Here you will find BOTO LABO's demos from different game festivals. Both available versions have known bugs and have already been fixed for the Steam's demo release in July.";
+        document.getElementById("pd2").innerHTML = "Feel free to contact via social media or email to give feedback or to notify any bugs!";
+        document.getElementById("pd3").innerHTML = "Notes: The demo's GUI had the use of controllers in mind - Keyboard references in case you play the demo with one:";
+        document.getElementById("pd4").innerHTML = "You can also use the mouse to click the GUI.";
+        document.getElementById("pd5").innerHTML = "Notes: The demo's GUI had the use of controllers in mind - Keyboard references in case you play the demo with one:";
+        document.getElementById("pd6").innerHTML = "You can also use the mouse to click the GUI.";
+        document.getElementById("liy1").innerHTML = "Controller's Y -> Space Bar";
+        document.getElementById("lib1").innerHTML = "Controller's B -> E";
+        document.getElementById("lia1").innerHTML = "Controller's A -> R";
+        document.getElementById("liy2").innerHTML = "Controller's Y -> Space Bar";
+        document.getElementById("lib2").innerHTML = "Controller's B -> E";
+        document.getElementById("lia2").innerHTML = "Controller's A -> R";
+        document.getElementById("lix").innerHTML = "Controller's X -> Q";
 
         //Socials
         document.getElementById("rsslink").ariaLabel = "Link to Abendiix's RSS.";
