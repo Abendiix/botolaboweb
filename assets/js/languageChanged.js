@@ -132,7 +132,7 @@ function updateTexts(language)
         document.getElementById("verticalartpng").innerHTML = "Descargar PNG";
 
         //Demos
-        document.getElementById("alphav2").innerHTML = "Guadalindie 2026 - Alfa V3";
+        document.getElementById("alphav3").innerHTML = "Guadalindie 2026 - Alfa V3";
         document.getElementById("alphav2").innerHTML = "BCN Game Fest 2025 - Alfa V2";
         document.getElementById("alphav1").innerHTML = "Guadalindie 2025 - Alfa V1";
         document.getElementById("pd1").innerHTML = "Aquí encontrarás las demos de BOTO LABO de diferentes ferias de videojuegos. Ambas versiones tienen bugs conocidos y ya se han arreglado para el lanzamiento de la demo de Steam.";
