@@ -132,14 +132,20 @@ function updateTexts(language)
         document.getElementById("verticalartpng").innerHTML = "Descargar PNG";
 
         //Demos
+        document.getElementById("alphav2").innerHTML = "Guadalindie 2026 - Alfa V3";
         document.getElementById("alphav2").innerHTML = "BCN Game Fest 2025 - Alfa V2";
-        document.getElementById("alphav1").innerHTML = "BCN Game Fest 2025 - Alfa V1";
+        document.getElementById("alphav1").innerHTML = "Guadalindie 2025 - Alfa V1";
         document.getElementById("pd1").innerHTML = "Aquí encontrarás las demos de BOTO LABO de diferentes ferias de videojuegos. Ambas versiones tienen bugs conocidos y ya se han arreglado para el lanzamiento de la demo de Steam.";
         document.getElementById("pd2").innerHTML = "¡No dudes en ponerte en contacto vía redes sociales o correo electrónico para opinar del juego o notificar cualquier bug!";
         document.getElementById("pd3").innerHTML = "Nota: La interfaz gráfica de la demo tenía el uso de mandos en mente - Referencias para el teclado si juegas la demo con uno:";
         document.getElementById("pd4").innerHTML = "También se puede usar el ratón para hacer click en la interfaz gráfica.";
         document.getElementById("pd5").innerHTML = "Nota: La interfaz gráfica de la demo tenía el uso de mandos en mente - Referencias para el teclado si juegas la demo con uno:";
         document.getElementById("pd6").innerHTML = "También se puede usar el ratón para hacer click en la interfaz gráfica.";
+        document.getElementById("pd7").innerHTML = "Nota: La interfaz gráfica de la demo tenía el uso de mandos en mente - Referencias para el teclado si juegas la demo con uno:";
+        document.getElementById("pd8").innerHTML = "También se puede usar el ratón para hacer click en la interfaz gráfica.";
+        document.getElementById("liy3").innerHTML = "Y del mando -> Q/Barra espaciadora";
+        document.getElementById("lib3").innerHTML = "B del mando -> E";
+        document.getElementById("lia3").innerHTML = "A del mando -> R";
         document.getElementById("liy1").innerHTML = "Y del mando -> Barra espaciadora";
         document.getElementById("lib1").innerHTML = "B del mando -> E";
         document.getElementById("lia1").innerHTML = "A del mando -> R";
@@ -249,14 +255,20 @@ function updateTexts(language)
         document.getElementById("verticalartpng").innerHTML = "Download PNG";
 
         //Demos
+        document.getElementById("alphav3").innerHTML = "Guadalindie 2026 - Alpha V3";
         document.getElementById("alphav2").innerHTML = "BCN Game Fest 2025 - Alpha V2";
-        document.getElementById("alphav1").innerHTML = "BCN Game Fest 2025 - Alpha V1";
+        document.getElementById("alphav1").innerHTML = "Guadalindie 2025 - Alpha V1";
         document.getElementById("pd1").innerHTML = "Here you will find BOTO LABO's demos from different game festivals. Both available versions have known bugs and have already been fixed for the Steam's demo release in July.";
         document.getElementById("pd2").innerHTML = "Feel free to contact via social media or email to give feedback or to notify any bugs!";
         document.getElementById("pd3").innerHTML = "Notes: The demo's GUI had the use of controllers in mind - Keyboard references in case you play the demo with one:";
         document.getElementById("pd4").innerHTML = "You can also use the mouse to click the GUI.";
         document.getElementById("pd5").innerHTML = "Notes: The demo's GUI had the use of controllers in mind - Keyboard references in case you play the demo with one:";
         document.getElementById("pd6").innerHTML = "You can also use the mouse to click the GUI.";
+        document.getElementById("pd7").innerHTML = "Notes: The demo's GUI had the use of controllers in mind - Keyboard references in case you play the demo with one:";
+        document.getElementById("pd8").innerHTML = "You can also use the mouse to click the GUI.";
+        document.getElementById("liy3").innerHTML = "Controller's Y -> Q/Space Bar";
+        document.getElementById("lib3").innerHTML = "Controller's B -> E";
+        document.getElementById("lia3").innerHTML = "Controller's A -> R";
         document.getElementById("liy1").innerHTML = "Controller's Y -> Space Bar";
         document.getElementById("lib1").innerHTML = "Controller's B -> E";
         document.getElementById("lia1").innerHTML = "Controller's A -> R";
